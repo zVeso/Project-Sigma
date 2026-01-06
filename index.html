@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoL Boosting Service — Начало</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo" aria-label="Начало">
+        <img src="assets/logo.svg" alt="LoL Boosting Logo" />
+        <span>LoL Boosting</span>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav">
+          <li><a href="index.html" class="active">Начало</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="pricing.html">Цени</a></li>
+          <li><a href="how-it-works.html">Как работи</a></li>
+          <li><a href="about.html">За нас</a></li>
+          <li><a href="contact.html">Контакт</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Професионален буустинг за League of Legends</h1>
+          <p>Бърз, сигурен и надежден буустинг от топ играчи. Достигни желания ранг без излишен стрес.</p>
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Поръчай сега</a>
+            <a href="pricing.html" class="btn btn-outline">Виж цените</a>
+          </div>
+          <ul class="advantages">
+            <li><i class="fa-solid fa-bolt"></i> Бързо и сигурно</li>
+            <li><i class="fa-solid fa-user-tie"></i> Професионални буустъри</li>
+            <li><i class="fa-solid fa-shield"></i> VPN защита</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <video id="heroVideo" class="video" controls></video>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro container">
+      <h2>Защо да избереш нас</h2>
+      <p>
+        Предлагаме персонализирани буустинг решения — соло, дуо, плейсмънт мачове и коучинг. Екипът ни използва сигурни методи и настройки за поверителност, за да остане акаунтът ти защитен.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 LoL Boosting Service. Всички права запазени.</p>
+      <p>
+        <a href="sources.html">Източници</a> · <a href="about.html">За нас</a> · <a href="contact.html">Контакт</a>
+      </p>
+    </div>
+  </footer>
+  <script>
+    const heroVideo = document.getElementById('heroVideo');
+    if (heroVideo) {
+      const defaultVideoPath = encodeURI('assets/how to join L9 [intense spacegliding] 英雄联盟 4am wadbot 英雄联盟 (2022 working).mp4');
+      heroVideo.src = defaultVideoPath;
+    }
+  </script>
+</body>
+</html>
+

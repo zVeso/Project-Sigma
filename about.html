@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoL Boosting Service — За нас</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo" aria-label="Начало">
+        <img src="assets/logo.svg" alt="LoL Boosting Logo" />
+        <span>LoL Boosting</span>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav">
+          <li><a href="index.html">Начало</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="pricing.html">Цени</a></li>
+          <li><a href="how-it-works.html">Как работи</a></li>
+          <li><a href="about.html" class="active">За нас</a></li>
+          <li><a href="contact.html">Контакт</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>За нас</h1>
+    <p>
+      Създадени от играчи с висок ELO, ние имаме години състезателен опит в различни региони. Поставяме на първо място сигурността,
+      професионализма и удовлетворението на клиента във всяка поръчка.
+    </p>
+    <h2>Нашият опит</h2>
+    <p>
+      Грандмастър и Чалънджър буустъри, треньори с турнирeн опит и отдаден съпорт екип правят пътя ти нагоре максимално плавен.
+    </p>
+    <h2>Гаранции за сигурност</h2>
+    <ul>
+      <li>VPN защита и IP адрес, съобразен с твоя регион</li>
+      <li>Изключен стрийм, минимизиран чат в играта</li>
+      <li>Строга конфиденциалност и проследяване на поръчката</li>
+    </ul>
+
+<div class="about-media">
+  <video id="aboutVideo" class="video" controls></video>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 LoL Boosting Service. Всички права запазени.</p>
+      <p>
+        <a href="sources.html">Източници</a> · <a href="about.html">За нас</a> · <a href="contact.html">Контакт</a>
+      </p>
+    </div>
+  </footer>
+  <script>
+    const aboutVideo = document.getElementById('aboutVideo');
+    if (aboutVideo) {
+      const defaultVideoPath = encodeURI('assets/first day with wadbot.mp4');
+      aboutVideo.src = defaultVideoPath;
+    }
+  </script>
+</body>
+</html>

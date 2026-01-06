@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoL Boosting Service — Контакт</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo" aria-label="Начало">
+        <img src="assets/logo.svg" alt="LoL Boosting Logo" />
+        <span>LoL Boosting</span>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav">
+          <li><a href="index.html">Начало</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="pricing.html">Цени</a></li>
+          <li><a href="how-it-works.html">Как работи</a></li>
+          <li><a href="about.html">За нас</a></li>
+          <li><a href="contact.html" class="active">Контакт</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Контакт</h1>
+    <p>Попълни формата по-долу, за да направиш поръчка или да зададеш въпрос.</p>
+
+    <form class="contact-form" action="#" method="post">
+      <div class="form-grid">
+        <label>
+          <span>Име</span>
+          <input type="text" name="name" placeholder="Твоето име и фамилия" required />
+        </label>
+        <label>
+          <span>Имейл</span>
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          <span>Ранг</span>
+          <input type="text" name="rank" placeholder="Текущ ранг (напр. Silver II)" />
+        </label>
+        <label class="full">
+          <span>Съобщение</span>
+          <textarea name="message" rows="5" placeholder="Опиши какъв бууст искаш" required></textarea>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Изпрати</button>
+    </form>
+
+    <div class="contact-extra">
+      <p><i class="fa-solid fa-envelope"></i> Имейл: ludiqveso@gmail.com</p>
+      <p><i class="fa-brands fa-discord"></i> Discord: <a href="https://discord.gg/jsbqebWKtj" target="_blank" rel="noopener">Влез в нашия Discord</a></p>
+      <p><i class="fa-solid fa-clock"></i> Работно време: всеки ден 10:00 – 22:00 (EET)</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 LoL Boosting Service. Всички права запазени.</p>
+      <p>
+        <a href="sources.html">Източници</a> · <a href="about.html">За нас</a> · <a href="contact.html">Контакт</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
